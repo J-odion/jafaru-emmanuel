@@ -156,6 +156,7 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
+// Typewritter effects
 let app = document.getElementById('name-me');
 
 let typewriter = new Typewriter(app, {
@@ -168,8 +169,8 @@ typewriter
   .typeString("I'm Emmanuel Jafaru")
   .pauseFor(300)
   .deleteChars(16)
-  .typeString(' a <strong style="color: #b915d5";> React </strong>      ')
-  .typeString('and <strong style="color: #b915d5";>React Native</strong> developer')
+  .typeString(' I speak FLUENT <strong style="color: #b915d5";> REACT </strong>      ')
+  .typeString('and <strong style="color: #b915d5";>React Native</strong>')
   .pauseFor(1000)
     .start();
 
