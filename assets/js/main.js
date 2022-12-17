@@ -168,10 +168,10 @@ typewriter
   .pauseFor(2500)
   .typeString("I'm Emmanuel Jafaru")
   .pauseFor(300)
-  .deleteChars(16)
-  .typeString(' I speak FLUENT <strong style="color: #b915d5";> REACT </strong>      ')
+  .deleteChars(20)
+  .typeString(' I speak fluent <strong style="color: #b915d5";> REACT </strong>      ')
   .typeString('and <strong style="color: #b915d5";>React Native</strong>')
-  .pauseFor(1000)
+  .pauseFor(2000)
     .start();
 
 let skills = document.getElementById('skill');
