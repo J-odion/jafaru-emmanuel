@@ -73,17 +73,17 @@
         font-size: var(--normal-font-size);
     }
 
-    /* SERVICES SECTION */
-    .services_container {
+    /* roles SECTION */
+    .roles_container {
         grid-template-columns: max-content;
         justify-content: center;
     }
 
-    .services_content {
+    .roles_content {
         padding-right: 3.5rem;
     }
 
-    .services_modal {
+    .roles_modal {
         padding: 0 1rem;
     }
 
@@ -131,17 +131,17 @@
         padding-right: 3.25rem;
     }
 
-    /* SERVICES SECTION */
-    .services_container {
+    /* roles SECTION */
+    .roles_container {
         padding-left: 2rem;
         padding-right: 2rem;
     }
     
-    .services_content {
+    .roles_content {
         padding: 4rem 0 1.5rem 2rem;
     }
 
-    .services_modal {
+    .roles_modal {
         padding: 0 5rem;
     }
 
@@ -264,23 +264,23 @@
         font-size: 3rem;
     }
 
-    /* SERVICES SECTION */
-    .services_container {
+    /* roles SECTION */
+    .roles_container {
         grid-template-columns: repeat(2, 1fr);
         justify-content: space-between;
         padding-left: .75rem;
         padding-right: .75rem;
     }
 
-    .services_icon {
+    .roles_icon {
         font-size: 3rem;
     }
 
-    .services_content {
+    .roles_content {
         padding: 6rem 0 2rem 2.5rem;
     }
 
-    .services_modal-content {
+    .roles_modal-content {
         width: 450px;
     }
 
@@ -363,8 +363,8 @@
         transform: translateX(-6rem);
     }
 
-    /* SERVICES SECTION */
-    .services_container {
+    /* roles SECTION */
+    .roles_container {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
     }

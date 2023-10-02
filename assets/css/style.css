@@ -352,6 +352,10 @@ img
 .home_scroll-button {
     color: var(--first-color);
     transition: .4s;
+    position: absolute;
+    right: 10px;
+    bottom: auto;
+    margin-bottom: 20px;
 }
 
 .home_scroll-button:hover {
@@ -466,6 +470,9 @@ img
 /*==================== SKILLS ====================*/
 .skill_container {
     row-gap: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .skills_header {
@@ -505,6 +512,11 @@ img
 .skills_list {
     row-gap: 1.5rem;
     padding-left: 2.7rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    /* column-gap: 30px; */
+    justify-content: center;
 }
 
 .skills_titles {
@@ -523,8 +535,8 @@ img
 }
 
 
-/*==================== SERVICES ====================*/
-.services_content {
+/*==================== roles ====================*/
+.roles_content {
     position: relative;
     background-color: var(--container-color);
     padding: 3.5rem .5rem 1.25rem 1.5rem;
@@ -533,33 +545,33 @@ img
     transition: .3s;
 }
 
-.services_content:hover {
+.roles_content:hover {
     box-shadow: 0 4px 8px rgba(0,0,0,.15);
 }
 
-.services_icon {
+.roles_icon {
     display: block;
     font-size: 2.5rem;
     color: var(--first-color);
     margin-bottom: var(--mb-1);
 }
 
-.services_title {
+.roles_title {
     font-size: var(--h2-font-size);
     margin-bottom: var(--mb-1);
     font-weight: var(--font-medium);
 }
 
-.services_button {
+.roles_button {
     cursor: pointer;
     font-size: var(--small-font-size);
 }
 
-.services_button:hover .button_icon {
+.roles_button:hover .button_icon {
     transform: translateX(.25rem);
 }
 
-.services_modal {
+.roles_modal {
     position: fixed;
     top: 0;
     left: 0;
@@ -576,28 +588,29 @@ img
     transition: .4s;
 }
 
-.services_modal-content {
+.roles_modal-content {
     position: relative;
     background-color: var(--container-color);
     padding: 1.5rem;
     border-radius: .5rem;
 }
 
-.services_modal-services {
+.roles_modal-roles {
     row-gap: 1rem;
 }
 
-.services_modal-service {
+.roles_modal-roles {
     display: flex;
+    flex-direction: column;
 }
 
-.services_modal-title {
+.roles_modal-title {
     font-size: var(--h2-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1-5);
 }
 
-.services_modal-close {
+.roles_modal-close {
     position: absolute;
     top: 1rem;
     right: 1rem;
@@ -606,11 +619,11 @@ img
     cursor: pointer;
 }
 
-.services_modal-close:hover {
+.roles_modal-close:hover {
     color: var(--first-color-alt);
 }
 
-.services_modal-icon {
+.roles_modal-icon {
     color: var(--first-color);
     margin-right: var(--mb-0-25);
 }
@@ -810,11 +823,11 @@ img
 .footer_copy {
     font-size: var(--smaller-font-size);
     text-align: center;
-    color: var(--text-color-light);
     margin-top: var(--mb-1-5);
 }
 
 .footer_title,
+.footer_copy,
 .footer_subtitle,
 .footer_link,
 .footer_social {
