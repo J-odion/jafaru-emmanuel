@@ -1,7 +1,7 @@
 export const profileData = {
   hero: {
     name: "Emmanuel Odion Jafaru",
-    title: "Senior Full-Stack Engineer · Systems Architect",
+    title: "Senior Full-Stack Engineer · Mobile · Systems Architect ",
     statement: "I build software that survives the real world.",
     description: [
       "I’m a Senior Full-Stack Software Engineer and Systems Architect with 7+ years of experience engineering production-grade systems across fintech, healthtech, and enterprise domains.",
