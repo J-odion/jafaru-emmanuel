@@ -1,7 +1,7 @@
 export const profileData = {
   hero: {
     name: "Emmanuel Odion Jafaru",
-    title: "Senior Backend-Leaning Full-Stack Engineer · Systems Architect",
+    title: "Senior Full-Stack Engineer · Systems Architect",
     statement: "I build software that survives the real world.",
     description: [
       "I’m a Senior Full-Stack Software Engineer and Systems Architect with 7+ years of experience engineering production-grade systems across fintech, healthtech, and enterprise domains.",
@@ -19,8 +19,8 @@ export const profileData = {
     infrastructure: ["AWS", "Docker", "CI/CD (GitHub Actions)", "Linux", "Redis/BullMQ"],
     core: [
       "Software Architecture", "System Audit", "REST API Integration",
-      "Microservices & Modular Monoliths", "RBAC & JWT Security", 
-      "Double-entry Ledgers", "OAuth & Google 2FA", 
+      "Microservices & Modular Monoliths", "RBAC & JWT Security",
+      "Double-entry Ledgers", "OAuth & Google 2FA",
       "Data Integrity & Escrow", "Audit Logging"
     ]
   },
@@ -86,7 +86,7 @@ export const profileData = {
       stack: ["React Native", "NestJS", "Fintech API"]
     }
   ],
-  
+
   // Dedicated Resume Data for the Web Document Viewer
   resumes: {
     master: {
@@ -188,7 +188,7 @@ export const profileData = {
       community: "Member: GDG Abuja, Code Academy Abuja, Africa Tech Community · Guest Speaker, “Becoming a Mobile Engineer,” ATC Africa OAU Chapter (2023) · Web Development Mentor, Ascend Bootcamp (2025) | Languages: English (Fluent), Etsakwo (Native), Hausa, German, Spanish, French (Beginner)"
     }
   },
-  
+
   writings: [
     {
       title: "Building Mobile Device Management (MDM) Integration for Fleet Management",
