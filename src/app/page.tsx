@@ -251,7 +251,7 @@ export default function Home() {
       <footer className="py-12 border-t border-gray-800 bg-gray-900/50 text-center mt-20">
         <div className="max-w-3xl mx-auto px-8">
           <p className="text-xl text-white font-semibold italic mb-8">
-            "I started by learning how to build software. I am now focused on learning how to build software systems that businesses can trust."
+            "I build and scale resilient software systems that businesses can trust."
           </p>
           <div className="mb-8">
             <h4 className="text-white font-bold mb-1">Emmanuel Jafaru</h4>
