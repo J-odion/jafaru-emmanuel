@@ -229,6 +229,8 @@ export const profileData = {
   ],
   socials: {
     devTo: "https://dev.to/emmyjaff",
-    medium: "https://medium.com/@emmyjaff22"
+    medium: "https://medium.com/@emmyjaff22",
+    whatsapp: "https://wa.me/2349162622433",
+    whatsappPhone: "+2349162622433"
   }
 };
